@@ -7,18 +7,19 @@
   <title>Dynamic Shopping Cart</title>
 </head>
 <body>
-  <h1>Dynamic Shopping Cart</h1>
-  <div id="product-container">
-    <label for ="productName">Product:</label>
-    <input type="text" id="product-name" maxlength="20" placeholder=" Product Name...">
+    <article class = "container">
+        <h1>Dynamic Shopping Cart</h1>
+        <div id="product-container">
+            <label for ="productName">Product:</label>
+            <input type="text" id="product-name" maxlength="20" placeholder=" Product Name...">
 
-    <label for ="productPriceInput">Price:</label>
-    <input type="number" id="product-price" min="0.01" max="100" step="0.01" placeholder="Price...">
-    <button id="add-product">Add Product</button>
-  </div>
-  <ul id="cartList"></ul>
-  <h3>Total: $<span id="total-price">0</span></h3>
- 
+            <label for ="productPriceInput">Price:</label>
+            <input type="number" id="product-price" min="0.01" max="100" step="0.01" placeholder="Price...">
+            <button id="add-product">Add Product</button>
+        </div>
+        <ul id="cartList"></ul>
+        <h3>Total: $<span id="total-price">0</span></h3>
+    </article>
   <script src="shopping.js"></script>
 </body>
 </html>

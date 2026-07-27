@@ -22,7 +22,7 @@ addProductButton.addEventListener('click', () => {
 
     // 3. Create the remove button for THIS specific item
     const removeBtn = document.createElement('button');
-    removeBtn.textContent = 'Delete'; // or '❌'
+    removeBtn.textContent = 'Remove'; // or '❌'
 
     // Add click listener to the remove button
     removeBtn.addEventListener('click', () => {
