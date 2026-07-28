@@ -14,6 +14,7 @@ addProductButton.addEventListener('click', () => {
     // 1. Guard check comes FIRST
     if (!nameValue || !productPriceInput.value || priceValue > 100 || priceValue <= 0) {
         return;
+        alert("Please enter a value!");
     }
     // 2. Create the list item
     const li = document.createElement('li');

@@ -1,4 +1,5 @@
 body {
+background-image: url("./shopping-images/pink-shopping-cart.jpg");
 font-family: "Kalnia Glaze", serif;
 background-color: honeydew;
 line-height: 1.6;
@@ -6,16 +7,22 @@ line-height: 1.6;
 }
 
 .container {
- display: grid;
- justify-content: center; 
- align-items: center;     
- max-height: 100vh;
- background-color: rgb(159, 201, 201);
- width: fit-content; 
- margin: auto;
- margin-top: 250px;
- border-radius:20px;
- box-shadow: 25px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 2);
+  background-image: url("./shopping-images/shopping-cart.svg");
+  background-size:contain;
+  background-size: 35px auto;
+  background-position: left 20px top 15px;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-content: center; 
+  align-items: center;     
+  max-height: 100vh;
+  background-color: rgba(214, 227, 227, 0.771);
+  width: fit-content; 
+  margin: auto;
+  margin-top: 250px;
+  border-radius:20px;
+  box-shadow: 25px;
 }
 
 #product-container {
@@ -52,9 +59,13 @@ line-height: 1.6;
 }
 
 h1{
+  padding-top: 25px;
   text-align:center;
   font-family: "Rubik Puddles", system-ui;
 }
 h3{
+  background-image: url("./shopping-images/contactless-payment.png");
+  background-repeat: no-repeat;
+  background-position: right;
   padding-left: 20px;
 }
