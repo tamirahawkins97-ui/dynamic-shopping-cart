@@ -15,7 +15,6 @@ addProductButton.addEventListener('click', () => {
     if (!nameValue || !productPriceInput.value || priceValue > 100 || priceValue <= 0) {
         return;
     }
-
     // 2. Create the list item
     const li = document.createElement('li');
     li.textContent = `${nameValue} - $${priceValue.toFixed(2)} `;
