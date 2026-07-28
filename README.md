@@ -22,3 +22,4 @@ A responsive, interactive shopping cart web application. Users can browse produc
 ├── shopping.html       # Main UI structure
 ├── shopping.css        # Visual styling and layout rules
 └── shopping.js         # Cart logic, state management, and DOM handling
+  └── shopping.images   # Icons, images, and logos
